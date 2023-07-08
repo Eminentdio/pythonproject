@@ -1,0 +1,13 @@
+quiz_questions = ['Who is the president of Nigeria?\n',
+                  'What is the name of the nearest star to the earth?\n']
+quiz_answers = ['Ahmad Tinubu', 'Alpha Centauri']
+time_counter = 0
+
+for i in range(len(quiz_questions)):
+    reply = input(quiz_questions[i])
+    if reply.lower() == quiz_answers[i].lower():
+        print('Correct')
+        time_counter += 1
+    else:
+        print(f'Wrong answer! The correct answer is {quiz_answers[i]}')
+    print(f'You scored {time_counter} out of {i + 1} questions.')
