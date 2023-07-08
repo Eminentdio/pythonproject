@@ -1,0 +1,9 @@
+# userName = str(input('Input your username\n')).lower()
+# userPwd = str(input('Enter your password\n')).lower()
+#
+# if userName == "house" and userPwd == "user":
+#     print('True')
+#     print('Login in successful')
+# else:
+#     print('false')
+#     print('invalid login credentials')
