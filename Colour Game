@@ -1,0 +1,13 @@
+# user_color1 = str(input('Enter your first colour\n')).lower()
+# user_color2 = str(input('Enter your second colour\n')).lower()
+# user_color3 = str(input('Enter your third colour\n')).lower()
+#
+# def maximum(user_color1, user_color2, user_color3):
+#    powerful_colour = user_color1
+#     if user_color2 > powerful_colour:
+#         powerful_colour = user_color2
+#     if user_color3 > powerful_colour:
+#         powerful_colour = user_color3
+#     return powerful_colour
+#
+# print('Your powerful colour is', maximum(user_color1, user_color2, user_color3))
