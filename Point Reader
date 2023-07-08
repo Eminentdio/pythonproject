@@ -1,0 +1,20 @@
+# for points_reader in range(1, 100):
+#     if points_reader == 10:
+#         print('first bonus')
+#         continue
+#     elif points_reader == 20:
+#         print('second bonus')
+#         continue
+#     elif points_reader == 40:
+#         print('third bonus')
+#         continue
+#     elif points_reader == 60:
+#         print('fourth bonus')
+#         continue
+#     elif points_reader == 80:
+#         print('fifth bonus')
+#         continue
+#     elif points_reader == 90:
+#         print('congrats! All bonuses won!!')
+#         break
+#     print(points_reader, end = ' ')
