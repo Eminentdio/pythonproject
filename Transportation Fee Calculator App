@@ -1,0 +1,12 @@
+# def destination():
+#     distance_traveled = float(input('Enter the distance you want to travel in meters\n'))
+#     distance_time = float(input('Enter the probable time you could spend in minutes\n'))
+#     fuel_price = float(input('Enter the amount you bought your last fuel\n'))
+#     payment = (distance_traveled + distance_time) % fuel_price
+#     return payment
+#
+#
+# print(f'Dear, {passenger_name}. Your transport payment is #{destination()}.\n '
+#       f'Thanks for your patronage.')
+#
+# destination()
