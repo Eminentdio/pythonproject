@@ -1,0 +1,20 @@
+LOOPING THROUGH A RANGE TO GET ODD NUMBERS
+counter = 0
+for odd in range(10):
+    while odd < counter:
+        counter += 1
+    if not odd % 2:
+        continue
+    print(odd)
+
+CALCULATING A PRICE OF AN ITEM AND THE GIVEN DISCOUNT
+
+selling_price = float(input('Enter the price\n'))
+discount_offered = float(input('How much discount offered?\n'))
+
+def get_net_price(price, discount):
+    return price * (1 - discount)
+net_price = get_net_price(selling_price, discount_offered)
+
+print(net_price)
+
