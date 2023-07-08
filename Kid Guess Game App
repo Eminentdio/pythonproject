@@ -1,21 +1,21 @@
  from random import randint
-#
-# player_live = 5
-# def kid_guess_game():
-#     kid_num = randint(1, 50)
-#     while player_live > 0:
-#         kid_guess = int(input('Hey, genius! Enter your guessed number\n'))
-#         if kid_guess == kid_num:
-#             print('Hurray, champ!! You guessed it right.😍😍😍')
-#             return
-#         elif kid_guess > kid_num:
-#             print('Ouch! Your guessed number is greater than the number. 🤷‍♂️🤷‍♂️')
-#         else:
-#             print('Ouch! Your guessed is less than the number. 👌👌')
-#
-#         player_live -= 1
-#         print('You have ', player_live, '❤️ left')
-#
-#     print('Game over 👺. The hidden number is', kid_num)
 
-# kid_guess_game()
+player_live = 5
+def kid_guess_game():
+    kid_num = randint(1, 50)
+    while player_live > 0:
+        kid_guess = int(input('Hey, genius! Enter your guessed number\n'))
+        if kid_guess == kid_num:
+            print('Hurray, champ!! You guessed it right.😍😍😍')
+            return
+        elif kid_guess > kid_num:
+            print('Ouch! Your guessed number is greater than the number. 🤷‍♂️🤷‍♂️')
+        else:
+            print('Ouch! Your guessed is less than the number. 👌👌')
+
+        player_live -= 1
+        print('You have ', player_live, '❤️ left')
+
+    print('Game over 👺. The hidden number is', kid_num)
+
+kid_guess_game()

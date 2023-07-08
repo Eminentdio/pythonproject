@@ -1,43 +1,43 @@
-# def roll_dice():
-#     die1 = random.randrange(1, 7)
-#     die2 = random.randrange(1, 7)
-#     return die1, die2
-#
-#
-# def display_dice(dice):
-#     die1, die2 = dice
-#     print(f'Player 1 rolled {die1} + {die2} = {sum(dice)}')
-#
-#
-# dice_values = roll_dice()
-# display_dice(dice_values)  # First roll
-#
-# sum_of_dice = sum(dice_values)
-#
-# if sum_of_dice in (7, 11):
-#     game_status = 'WON'
-# elif sum_of_dice in (2, 3, 12):
-#     game_status = 'LOST'
-# else:
-#     game_status = 'CONTINUE'
-#
-# player_point = sum_of_dice
-# print('Your point is ', player_point)
-#
-# while game_status == 'CONTINUE':
-#     dice_values = roll_dice()
-#     display_dice(dice_values)
-#     sum_of_dice = sum(dice_values)
-#
-#     if sum_of_dice == player_point:
-#         game_status = 'WON'
-#     elif sum_of_dice == 7:
-#         game_status = 'LOST'
-#
-# if game_status == 'WON':
-#     print('Player 1 wins!! 😍😍')
-# else:
-#     print('Player 1 loses!! 🥴🥴')
+def roll_dice():
+    die1 = random.randrange(1, 7)
+    die2 = random.randrange(1, 7)
+    return die1, die2
 
 
-# passenger_name = input('What is your name\n').lower()
+def display_dice(dice):
+    die1, die2 = dice
+    print(f'Player 1 rolled {die1} + {die2} = {sum(dice)}')
+
+
+dice_values = roll_dice()
+display_dice(dice_values)  # First roll
+
+sum_of_dice = sum(dice_values)
+
+if sum_of_dice in (7, 11):
+    game_status = 'WON'
+elif sum_of_dice in (2, 3, 12):
+    game_status = 'LOST'
+else:
+    game_status = 'CONTINUE'
+
+player_point = sum_of_dice
+print('Your point is ', player_point)
+
+while game_status == 'CONTINUE':
+    dice_values = roll_dice()
+    display_dice(dice_values)
+    sum_of_dice = sum(dice_values)
+
+    if sum_of_dice == player_point:
+        game_status = 'WON'
+    elif sum_of_dice == 7:
+        game_status = 'LOST'
+
+if game_status == 'WON':
+    print('Player 1 wins!! 😍😍')
+else:
+    print('Player 1 loses!! 🥴🥴')
+
+
+passenger_name = input('What is your name\n').lower()
