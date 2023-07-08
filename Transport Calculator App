@@ -1,0 +1,10 @@
+# number_of_trip = int(input('How many trip did you go?\n'))
+# earned_salary = int(input('How much did you earn per month?\n'))
+# trip_counters = 0
+#
+# while trip_counters < number_of_trip:
+#     trip_amount = int(input('How much did you pay the rider?\n'))
+#     total_trip_amount = (trip_amount * number_of_trip) % earned_salary
+#     trip_counters += 1
+#
+# print(f'You spent #{total_trip_amount} on transport in this month')
