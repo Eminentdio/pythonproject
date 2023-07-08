@@ -1,0 +1,13 @@
+# numb1 = int(input('Enter your first lucky number\n'))
+# numb2 = int(input('Enter your second lucky number\n'))
+# numb3 = int(input('Enter your last lucky number\n'))
+#
+# def maximum(numb1, numb2, numb3):
+#     lucky_number = numb1
+#     if numb2 > lucky_number:
+#         lucky_number = numb2
+#     if numb3 > lucky_number:
+#         lucky_number = numb3
+#     return lucky_number
+
+# print("Congrats!!! Your lucky number is ", maximum(numb1, numb2, numb3))
